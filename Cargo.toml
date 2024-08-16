@@ -1,0 +1,11 @@
+[package]
+name = "tree"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+regex = "1.5.4"
+chrono = "0.4.19"
+term_size = "0.3.2"
+ignore = "0.4.17"
+atty = "0.2"
