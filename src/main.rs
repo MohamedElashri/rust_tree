@@ -310,8 +310,6 @@ fn parse_args(args: &[String]) -> Result<Config, Box<dyn Error>> {
     Ok(config)
 }
 
-// Include all other functions from your original implementation here
-// This includes collect_entries, print_entries_oneline, print_entries_long, print_entries_grid, print_tree, etc.
 
 fn collect_entries(path: &Path, config: &Config, stats: &mut TreeStats) -> io::Result<Vec<FileInfo>> {
     let mut entries = Vec::new();
